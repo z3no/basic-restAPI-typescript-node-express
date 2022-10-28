@@ -1,5 +1,5 @@
-let age: number;
+import express from "express";
 
-age = 33;
+const app = express();
 
-console.log(age);
+app.listen(3000);
